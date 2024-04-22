@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.destination{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification p {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0px;
+    line-height: 18px;
+}
+.notification h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.searchBar {
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
+}
+.search-icon {
+    margin-left: -43px;
+    background-color: #145DCA;
+    color: white;
+    padding: 0px 8px;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tour{
+    background-color: #145DCA;
+    color: #ffffff;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+.tour-icon{
+    font-size: 34px;
+}
+.bus,
+.cab,
+.hotel{
+    background-color: #EAEAEA;
+    color: #8B8B8B;
+    padding: 0px 20px;
+    border-radius: 8px; 
+}
+.bus-icon,
+.cab-icon,
+.hotel-icon{
+    font-size: 34px;
+}
+.sub-title{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 424px){
+.choices{
+    flex-direction: column;
+    gap: 20px;
+}
+}
