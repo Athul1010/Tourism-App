@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.welcome-title {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.welcome {
+    color: #007AFF;
+}
+
+.signin-paragraph {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.goBus {
+    color: #000000;
+}
+
+.option-set {
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.logo {
+    height: 148px;
+    width: 113px;
+}
+
+.sign-in {
+    font-family: 'Poppins', sans-serif;
+}
+
+.facebook-logo,
+.google-logo,
+.apple-logo {
+    height: 30px;
+}
+
+.socialIcon-btn1,
+.socialIcon-btn2,
+.socialIcon-btn3 {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.mobile {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-left: 3rem;
+}
+.upLine {
+    background-color: black;
+    height: 30px;
+    width: 1.5px;
+}
+.signUp {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 20px;
+}
+
+.signUp-set {
+    color: #007AFF;
+
+}
+
+.justDial {
+    height: 30px;
+}
+
+.sign-in-btn {
+    margin-top: 20px;
+}
+
+.sign-in-btn button {
+    width: 100%;
+    background-color: #007AFF;
+    border: none;
+    font-weight: 700;
+    font-weight: 15px;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 50px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sign-in-btn {
+        margin-bottom: 30px;
+    }
+
+    .justDial-img {
+        margin-top: 90px;
+    }
+
+    .socialIcon-btn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .socialIcon-btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-right: 25px;
+    }
+    .socialIcon-btn3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-right: 31px;
+    }
+    .mobile{
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem; */
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sign-in-btn {
+        margin-bottom: 30px;
+    }
+    .sign-in-btn button{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .justDial-img {
+        margin-top: 90px;
+    }
+
+    .socialIcon-btn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .socialIcon-btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-right: 25px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .socialIcon-btn3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-right: 31px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .mobile{
+        margin: 0 auto;
+        width: 70%;
+       
+    }
+}
