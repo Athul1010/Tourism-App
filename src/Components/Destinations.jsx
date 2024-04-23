@@ -5,7 +5,10 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaBusSimple } from "react-icons/fa6";
 import { LuBus } from "react-icons/lu";
+import { IoIosArrowUp } from "react-icons/io";
 import { LuHotel } from "react-icons/lu";
+import PopularDestination from './PopularDestination';
+import Footer from './Footer';
 
 const Destinations = () => {
     return (
@@ -18,7 +21,7 @@ const Destinations = () => {
                                 <p>Hi Karthik</p>
                                 <h1>Where You Wanna Go?</h1>
                             </div>
-                            <div>
+                            <div className='notification-icon'>
                                 <span><IoIosNotificationsOutline /></span>
                             </div>
                         </div>
@@ -46,7 +49,44 @@ const Destinations = () => {
                             </div>
                         </div>
 
+                        <div className="category">
+                            <div className='school'>
+                                <input type="radio" />
+                                <p>School Students</p>
+                            </div>
+                            <div className='College'>
+                                <input type="radio" />
+                                <p>College Students</p>
+                            </div>
+                            <div className='corporate'>
+                                <input type="radio" />
+                                <p>Corporate</p>
+                            </div>
+                        </div>
 
+
+                        <div className='details'>
+                            <div><input type="text" className="form-control mb-3" placeholder="From" /></div>
+                            <div><input type="text" className="form-control mb-3" placeholder="To" /></div>
+                            <div><input type="date" className="form-control mb-3" placeholder="From" /></div>
+
+                            <div className="searchBar">
+                                <input type="text" className="form-control mb-3" placeholder="Travel Type" />
+                                <span className="search-icon-arrow"><IoIosArrowUp /></span>
+                            </div>
+
+                            <div className="searchBar">
+                                <input type="text" className="form-control mb-3" placeholder="Rooms & Gusts" />
+                                <span className="search-icon-arrow"><IoIosArrowUp /></span>
+                            </div>
+
+                            <div className='searching'>
+                                <button>Search</button>
+                            </div>
+                        </div>
+
+                        <PopularDestination/>
+                        <Footer/>
                     </div>
                 </div>
             </div>

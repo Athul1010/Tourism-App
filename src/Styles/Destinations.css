@@ -1,23 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-.destination{
+.destination {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
+.notification-icon{
+    border-radius: 50%;
+    background-color: #D9D9D966;
+    height: 50px;
+    width: 50px;
+    line-height: 46px;
+    font-size: 30px;
+    color: #000000;
+}
 
-.notification{
+.notification {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .notification p {
+    text-align: left;
     font-weight: 500;
     font-size: 12px;
     margin-bottom: 0px;
     line-height: 18px;
 }
+
 .notification h1 {
     font-weight: 500;
     font-size: 20px;
@@ -30,47 +41,128 @@
     /* justify-content: center; */
     align-items: baseline;
 }
+
 .search-icon {
     margin-left: -43px;
     background-color: #145DCA;
     color: white;
     padding: 0px 8px;
 }
+.search-icon-arrow{
+    margin-left: -43px;
+   
+    color: #9B9B9B;
+    padding: 0px 8px;
+}
 
-.choices{
+.choices {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 11px;
 }
-.tour{
+
+.tour {
     background-color: #145DCA;
     color: #ffffff;
     padding: 0px 20px;
     border-radius: 8px;
+    width: 100px;
 }
-.tour-icon{
+
+.tour-icon {
     font-size: 34px;
 }
+
 .bus,
 .cab,
-.hotel{
+.hotel {
     background-color: #EAEAEA;
     color: #8B8B8B;
     padding: 0px 20px;
-    border-radius: 8px; 
+    border-radius: 8px;
+    width: 100px;
 }
+
 .bus-icon,
 .cab-icon,
-.hotel-icon{
+.hotel-icon {
     font-size: 34px;
 }
-.sub-title{
+
+.sub-title {
     font-size: 12px;
 }
 
-@media only screen and (max-width: 424px){
-.choices{
-    flex-direction: column;
-    gap: 20px;
+
+/* -----------------------category------------------------------ */
+.school,
+.College,
+.corporate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
+
+.school p,
+.College p,
+.corporate p {
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+.details{
+    margin-top: 30px;
+}
+
+.searching{
+    margin-top: 15px;
+}
+.searching button{
+    width: 100%;
+    background-color: #007AFF;
+    border: none;
+    font-weight: 700;
+    font-weight: 15px;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 50px;
+}
+/* -----------------------category------------------------------ */
+
+@media only screen and (max-width: 600px){
+    .category{
+        gap: 40px;
+    } 
+}
+
+@media only screen and (max-width: 442px) {
+    .choices {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tour,
+    .bus,
+    .cab,
+    .hotel {
+        width: 100%;
+    }
+    .category{
+        flex-direction: column;
+    }
 }
