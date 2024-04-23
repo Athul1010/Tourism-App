@@ -1,0 +1,79 @@
+
+.offers{
+    /* margin-top: 30px; */
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.select-option{
+    text-align: left;
+}
+.amazing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+}
+.amazing h4{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+}
+.amazing button{
+    background: transparent;
+    font-size: 8.69px;
+    color: #145DCA;
+    border: 1px solid #145DCA;
+    margin-bottom: 11px;
+    border-radius: 5px;
+}
+.dot{
+    color: #145DCA;
+}
+.main{
+    font-size: 10.77px;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prices p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.person{
+    font-size: 12px;
+    font-weight: 600;
+}
+.newPerson{
+    font-size: 10px;
+    font-weight: 400px;
+}
+.best {
+    background-color: #145DCA;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.best p{
+    margin-bottom: 0px;
+    text-align: left;
+}
+.percentage-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.percentage-section p{
+    margin-bottom: 0px;
+}
+.percentage-section img{
+    height: 18px;
+}

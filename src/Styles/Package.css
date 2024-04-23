@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.package-container{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.package{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 6, 0.4)), url('../Assets/4cefe156a20d5cc7a0c0293e89a1e5df.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 73%;
+    object-fit: cover;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.goa-packages{
+    font-size: 24px;
+    font-weight: 700px;
+}
+.beaches{
+    font-size: 15px;
+}
+.edit-button{
+    background: transparent;
+    border: 1px solid #145DCA;
+    color: #145DCA;
+    font-size: 11.57px;
+    font-weight: 500;
+    height: 26.36px;
+    width: 54px;
+    margin-bottom: 20px;
+}
+.travel-date{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.categorys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 10px 0px;
+    margin-top: 30px;
+    
+}
+
+.schools,
+.Colleges,
+.corporates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.schools p,
+.Colleges p,
+.corporates p {
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 424px){
+    .categorys{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px){
+.sorting{
+    width: 94.666667%;
+}
+.categorys{
+    gap: 101px;
+}
+}
+
+@media only screen and (min-width: 992px){
+    .sorting{
+        width: 89%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .sorting{
+        width: 86%;
+    }
+}

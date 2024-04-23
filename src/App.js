@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignIn from './Components/SignIn';
 import Verification from './Components/Verification';
 import Destinations from './Components/Destinations';
+import Packages from './Components/Packages';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<SignIn/>}/>
         <Route path='/verification' element={<Verification/>}/>
         <Route path='/destination' element={<Destinations/>}/>
+        <Route path='/packages' element={<Packages/>}/>
       </Routes>
     </BrowserRouter>
     </div>
